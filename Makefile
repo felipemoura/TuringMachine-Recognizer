@@ -1,5 +1,4 @@
 build:
-	@cp ~felipemoura/Documents/workspace/Automata-Project02/src/* ~felipemoura/Desktop/Project
 	@javac *.java
 
 run:

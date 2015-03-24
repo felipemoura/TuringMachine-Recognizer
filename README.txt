@@ -17,6 +17,21 @@ Files:
 		* TuringMachine.java
 		* TuringMachineCreator.java
 
+Input Strint to Turing Machine:
+	* The following functions in TuringMachineCreator converts the input string into a turing Machine
+		* TuringMachineCreator.generateTuringMachine()
+		* TuringMachineCreator.getInformation()
+
+Execute the Turing Machine :
+	* The follwoing functions in Execute execute the created Turing Machine
+		* Execute.evaluateString()
+		* Execute.generateTree()
+		* Execute.replaceAtCharPosition()
+
+Main clas:
+	* The main class will read the input and store the information into variables and then call the 
+	  TuringMachineCreator to get the turing machine. After that It calls the Execute class to see if the 
+	  string in the input is accepted, rejected or do not know.
 
 Compiling:
 	* To compile it just use "make", it will compile all java files with javac.
